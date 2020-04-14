@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #one
+{
+    background: url("https://besthqwallpapers.com/img/original/103090/apple-smoothies-4k-fruits-breakfast-smoothie-in-apples.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+#one1
+{
+    color: white;
+    border-left: 6px solid greenyellow;
+    height: auto;
+    margin-left: 2%;
+    font-size: 30px;
+    padding-top: 2%; 
+}
+#primary
+{
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    padding: 14px 25px;  
+}
+.diet
+{
+    
+	background: #FFFFFF;
+	color: rgb(109, 101, 101);
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:link, a:visited 
+{
+    float: right;
+    color: white;
+    font-size: 25px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.header_info
+{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    padding: 14px 25px;
+}
+.plan
+{
+    border: 4px solid rgb(0, 39, 17);
+}
+.form{
+	max-width:400px;
+	margin:50px auto;
+	background:#fff;
+	border-radius:2px;
+	padding:20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form h1{
+	display: block;
+	text-align: center;
+	padding: 0;
+	margin: 0px 0px 20px 0px;
+	color: #5C5C5C;
+	font-size:x-large;
+}
+.form ul{
+	list-style:none;
+	padding:0;
+	margin:0;	
+}
+.form li{
+	display: block;
+	padding: 9px;
+	border:1px solid rgb(104, 155, 94);
+	margin-bottom: 30px;
+	border-radius: 3px;
+}
+.form li:last-child{
+	border:none;
+	margin-bottom: 0px;
+	text-align: center;
+}
+.form li > label{
+	display: block;
+	float: left;
+	margin-top: -19px;
+	background: rgb(104, 155, 94);
+	height: 14px;
+	padding: 2px 5px 2px 5px;
+	color: rgb(240, 232, 232);
+	font-size: 14px;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.form input[type="text"],
+.form input[type="date"],
+.form input[type="datetime"],
+.form input[type="email"],
+.form input[type="number"],
+.form input[type="search"],
+.form input[type="time"],
+.form input[type="url"],
+.form input[type="password"],
+.form textarea,
+.form select 
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	display: block;
+	outline: none;
+	border: none;
+	height: 25px;
+	line-height: 25px;
+	font-size: 16px;
+	padding: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form input[type="text"]:focus,
+.form input[type="date"]:focus,
+.form input[type="datetime"]:focus,
+.form input[type="email"]:focus,
+.form input[type="number"]:focus,
+.form input[type="search"]:focus,
+.form input[type="time"]:focus,
+.form input[type="url"]:focus,
+.form input[type="password"]:focus,
+.form textarea:focus,
+.form select:focus 
+{}
+.form li > span{
+	background: rgb(104, 155, 94);
+	display: block;
+	padding: 3px;
+	margin: 0 -9px -9px -9px;
+	text-align: center;
+	color: rgb(223, 223, 223);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.form textarea{
+	resize:none;
+}
+.form input[type="submit"],
+.form input[type="button"]{
+	background: rgb(14, 156, 62);
+	border: none;
+	padding: 10px 20px 10px 20px;
+	border-bottom: 3px solid rgb(1, 68, 17);
+	border-radius: 3px;
+	color: rgb(238, 241, 239);
+}
+.form input[type="submit"]:hover,
+.form input[type="button"]:hover{
+	background: #6B9FFF;
+	color:#fff;
+}
+a:hover, a:active
+ {
+    color: greenyellow;
+  }
+
+            
+            </style>
+        <script type="text/javascript" src="bone.js"></script>
+        <title>PERSONALIZED DIET CHART</title>
+    </head>
+    <body>
+        <div id="one">
+                <div class="vl"></div>
+            <div align="left" id="one1">
+                PERSONALIZED DIET CHART
+            </div>
+            <div id="one2" align="right">
+                <a href="main.html">Home </a>
+                            
+            </div>
+            <div class="header_info">
+                <br><br><br><br><br><br><br>
+                Stress Fit creates personalized meal plans based on your food preferences, budget,
+                and schedule. Reach your diet and nutritional goals with our calorie calculator, weekly meal
+                plans, grocery lists and more.
+                <div>Create your meal plan right here in seconds.</div>
+            </div>
+            <form class="form" name="form" onsubmit="validateForm()">
+                    <ul>
+                    <li>
+                        <label>Name</label>
+                        <input type="text" name="name" maxlength="100">
+                        <span>Enter your full name here</span>
+                    <li>
+                            <label>Age</label>
+                            <input type="text" name="age">
+                            <span>Enter your age</span>
+                        </li>
+                        <li>
+                                <label>Calories</label>
+                                <input type="text" name="cal">
+                                <span>Enter your prefered calorie intake(in kcal.)</span>
+                            </li>
+                            <li>
+                                <label>Time span</label>
+                                <input type="text" name="time">
+                                <span>Enter your prefered time span of diet chart('day' or 'week')</span>
+                            </li>
+                        </li>
+                        <li>
+                                <label>select food</label>
+                                <div class="diet" id="sel">
+                                <input type="radio" name="a" value="amla">Amla<br>
+                                <input type="radio" name="a" value="mango">Mango<br>
+                                <input type="radio" name="a" value="banana">Banana<br>
+                                <input type="radio" name="a" value="avocado">Avocado<br>
+                                <input type="radio" name="a" value="apple">Apple<br>
+                                <input type="radio" name="a" value="cashew">Cashew<br>
+                                <input type="radio" name="a" value="clove">Clove<br>
+                                <input type="radio" name="a" value="coconut">Coconut<br>
+                                <input type="radio" name="a" value="guava">Guava<br>
+                                <input type="radio" name="a" value="kiwi">Kiwi<br>
+                                <input type="radio" name="a" value="lime">Lime<br>
+
+                            </div>
+                                <span>health is wealth</span>
+                            </li>
+                        <li>
+                            <label>Email</label>
+                            <input type="text" name="email" maxlength="100">
+                            <span>Enter a valid email address</span>
+                        </li>
+                    <li>
+                        <label>About You</label>
+                        <textarea name="bio" onkeyup="adjust_textarea(this)"></textarea>
+                        <span>Say something about yourself</span>
+                    </li>
+                    <li>
+                        <input type="submit" value="Get Diet Chart" onsubmit="return validateForm()">
+                    </li>
+                    </ul>
+                    </form>
+                    <br><br><br><br><br><br><br><br>
+</div>
+    </div>
+    </body>
+    </html>

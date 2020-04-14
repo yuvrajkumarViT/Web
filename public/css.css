@@ -1,0 +1,73 @@
+
+body
+{
+    
+font-size: 20px;
+    
+font-family: Monotype Corsiva;
+    
+color: #165575;
+
+}
+
+.question
+{
+    
+font-weight: 600;
+
+}
+
+.answers
+ {
+  
+margin-bottom: 20px;
+  
+margin-right: 5px;
+
+}
+
+.answers label
+{
+
+  display: block;
+
+}
+
+#submit
+{
+    
+font-family: sans-serif;
+    
+font-size: 20px;
+    
+background-color: blue;
+    
+color:red;
+    border: 0px;
+    
+border-radius: 3px;
+    
+padding: 20px;
+    
+cursor: pointer;
+    
+margin-bottom: 20px;
+
+}
+
+.quizo
+{
+  
+letter-spacing: 2px;
+  
+word-spacing: 5px;
+
+}
+
+#submit:hover
+{
+    
+background-color: #38a;
+
+}
+
